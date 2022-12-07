@@ -1,0 +1,67 @@
+body{
+    background: white;
+}
+hr{
+    background-color: rgb(134, 126, 126);
+    height: 0px;
+}
+.titleBar{
+    border-color: rgb(134, 126, 126);
+    background: rgb(255, 255, 255);
+    height: 70px;
+}
+.titleBar article, .icon article, .menu a{
+    display: inline-block;
+}
+.icon{
+    width: 50%;
+    text-align: left;
+}
+.iconName{
+    font-size: medium;
+    font-weight: bolder;
+    font-family: Serif, 'Arial Narrow', Arial, sans-serif;
+}
+.menu {
+    text-align: right;
+    width: 50%
+}
+.menu a{
+    color: black;
+}
+.menu a:active, a:hover{
+    font-weight: bold;
+    color: rgb(116, 8, 179);
+}
+.menuName {
+    padding: 10px 20px;
+    text-align: right;
+    font-family: Courier, monospace;
+    font-size: medium;
+}
+.section1{
+    border-color:rgb(134, 126, 126);
+    background-image: url(github.com/Hilda-Enyioko/Web3ladies_Page_Clone/image/background.jpg);
+}
+.section1 article{
+    display: inline-block;
+}
+.header1{
+    font-size: 55px;
+    font-family: Serif, 'Arial Narrow', Arial, sans-serif;
+}
+.paragraph1{
+    font-size: 18px;
+    font-family: monospace;
+}
+.sectionText{
+    text-align: left;
+    width: 50%;
+    margin: 80px;
+}
+.sectionImage{
+    text-align: right;
+    width: 50%; 
+    padding: 20px, 50px;
+    margin: 20px, 50px; 
+}
